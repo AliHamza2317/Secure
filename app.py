@@ -38,12 +38,12 @@ with open('label_encoder.pkl', 'rb') as f:
     label_encoder = pickle.load(f)
 
 # Load the models and tokenizers
-sentiment_model = AutoModel.from_pretrained('sentiment_model').to(device)
-sentiment_tokenizer = AutoTokenizer.from_pretrained('sentiment_model')
-issue_model = AutoModel.from_pretrained('issue_model').to(device)
-issue_tokenizer = AutoTokenizer.from_pretrained('issue_model')
-subcategory_model = AutoModel.from_pretrained('subcategory_model').to(device)
-subcategory_tokenizer = AutoTokenizer.from_pretrained('subcategory_model')
+sentiment_model = AutoModel.from_pretrained('AliHamza2317/sentiment-model').to(device)
+sentiment_tokenizer = AutoTokenizer.from_pretrained('AliHamza2317/sentiment-model')
+issue_model = AutoModel.from_pretrained('AliHamza2317/issue-model').to(device)
+issue_tokenizer = AutoTokenizer.from_pretrained('AliHamza2317/issue-model')
+subcategory_model = AutoModel.from_pretrained('AliHamza2317/subcategory-model').to(device)
+subcategory_tokenizer = AutoTokenizer.from_pretrained('AliHamza2317/subcategory-model')
 
 
 
