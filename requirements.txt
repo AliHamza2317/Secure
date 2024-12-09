@@ -1,0 +1,10 @@
+Flask
+torch
+transformers
+flask-cors
+pandas
+numpy
+scikit-learn
+scipy
+surprise
+pyngrok
